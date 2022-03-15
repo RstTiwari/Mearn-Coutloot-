@@ -1,0 +1,32 @@
+.desktop__sideNavbar__bar{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: flex-start;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 19px;
+    opacity: 1;
+
+}
+.desktop__sideNavbar__link{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    padding: 10px 0px;
+}
+.desktop__sideNavbar__link__left{
+    flex: 1;
+    letter-spacing: 1.12px;
+    color: #484848;
+    text-transform: capitalize;
+    opacity: 1;
+    justify-items: center;
+}
+.desktop__sideNavbar__link__right{
+    font-size: 10px;
+    color: red;
+    justify-items: center;
+}
+

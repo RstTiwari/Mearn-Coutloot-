@@ -1,0 +1,35 @@
+.homeSlideBar{
+    display: flex;
+    padding: 40px;
+    
+}
+.homeSlideBar__left{
+    flex:20%;
+    width: 100%;
+   
+}
+.homeSlideBar__right{
+    flex:80%;
+    display: flex;
+    flex-direction: column;
+}
+.homeSlideBar__right__top{
+    flex: 50%;
+}
+.homeSlideBar__right__bottom{
+    flex: 50%;
+}
+
+@media screen and (max-width:992px) {
+    
+    .homeSlideBar{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeSlideBar__left{
+        flex:20%;
+        display: none;
+        
+    }
+}

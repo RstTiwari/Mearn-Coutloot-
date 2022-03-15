@@ -1,0 +1,40 @@
+.mobile__toggle__bar{
+    display: none;
+}
+
+
+@media screen and (max-width:992px) {
+    .mobile__toggle__bar{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(223, 21, 21);
+        height:100%;
+        width: 100%;
+    
+    
+       
+    }
+    .mobile__toggle__single__link{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 5px 15px;
+        font-weight: 700;
+    }
+    .mobile__toggle__single__link__left{
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        color: #ffffff;
+    }
+    .mobile__toggle__single__link__right{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        color: #ffffff;
+        
+    }
+    .mobile__toggle__single__link:hover{
+        background-color: black;
+    }
+}

@@ -1,0 +1,33 @@
+.trending__item__page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 40px;
+}
+.trending__item__icon{
+    float: left;
+    font-size: 30px;
+
+}
+.trending__item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;  
+
+}
+@media screen and(max-width:992px) {
+    .trending__item__page{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .trending__item__icon{
+        text-decoration: center;
+        float: right;
+    }
+    
+}
+ 

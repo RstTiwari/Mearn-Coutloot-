@@ -1,0 +1,140 @@
+body{
+    
+}
+.mobile__user{
+    display: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  20px 40px;
+    background-color: #FF6344;
+    position: sticky;
+    top: 0px;
+}
+.header__left{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:10px;
+   
+}
+.header__title{
+    color: #FFFFFF;
+    font-size:30px;
+}
+.logo__image{
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    
+}
+.header__center{
+    flex: 2.5;
+  
+   
+}
+.search__input__area{
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    left: 0;
+    padding:  0px 20px;    
+}
+.search__button{
+    right: 0px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.header__right{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    gap:20px;
+}
+button{
+    border: none;
+}
+.cart__button{
+    padding: 10px;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #FF6344;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    
+
+}
+.login__button{
+    padding: 10px;
+    font-size: 20px;
+    color: #ffff;
+    display:flex;
+    align-items: center;
+
+    
+
+}
+.mobileShow{
+    display: none;
+}
+
+
+/*Responsive code start from here onwards*/
+@media screen and (max-width:992px) {
+    
+    .header{
+        padding:20px;
+    }
+    .header__title{
+        font-size: 15px;
+    }
+    .logo__image{
+      width:25px;
+      height: 25px;
+      border-radius: 5px;
+    }
+    .header__center{
+        flex:1;
+    }
+    .search__input__area{
+        background-color: white;
+        padding: 5px 25px;
+        border-radius: 10px;
+        display: flex;
+        
+    }
+    .cart__button{
+        font-size: 15px;
+    }
+    .login__button{
+        font-size: 15px;
+    }
+    .header__center{
+        display: none;
+    }
+    .mobile__user{
+        display: block;
+        font-size: 30px;
+        color: #FFFFFF;
+        padding: 0px 10px;
+    }
+
+  
+    
+}
